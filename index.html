@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quiz Marketing & Community Management</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Quiz Marketing & Community Management</h1>
+
+    <!-- Progression -->
+    <div id="progressText">Question 1 / 1</div>
+    <div class="progressBar">
+      <div id="progressFill"></div>
+    </div>
+
+    <!-- Quiz -->
+    <div id="quiz">
+      <h2 id="question">Question ici</h2>
+      <div id="options"></div>
+      <button id="nextBtn" class="btn hidden">Suivant</button>
+    </div>
+
+    <!-- Résultat -->
+    <div id="result" class="hidden">
+      <h2>Votre score :</h2>
+      <p id="score"></p>
+      <button onclick="location.reload()" class="btn">Recommencer</button>
+    </div>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
